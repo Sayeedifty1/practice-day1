@@ -82,3 +82,49 @@ color: gray;
 margin-bottom: 30px;
 }
 /* our donate plan */
+.plan{
+display: flex;
+gap: 35px;
+justify-content: center;
+margin-top: 100px;
+/* text-align: center; */
+max-width: 1000px;
+margin: 0 auto;
+
+}
+
+.gray{
+background-color: lightgrey;
+border-radius: 5px;
+    border: 0;
+    padding: 20px 10px;
+
+}
+.pink{
+background-color: pink;
+border-radius: 5px;
+    border: 0;
+    padding: 20px 10px;
+    image-resolution: 50px;
+}
+.yellow{
+background-color: lightyellow;
+border-radius: 5px;
+    border: 0;
+    
+}
+.yellow .don-head{
+    margin-top: 0;
+}
+.yellow img{
+    width: 60px;
+    margin: 25px 10px;
+}
+.plan img{
+    /* background-position: top right; */
+    
+}
+.don-head{
+font-size: 25px;
+font-weight: 700;
+}
